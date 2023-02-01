@@ -1,0 +1,164 @@
+* {
+  font-family: "Heebo", serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.body {
+  background-color: gray;
+}
+.container-box {
+  background-color: #171717d7;
+  border-radius: 10px;
+  margin: 20px auto 0 auto;
+  width: 550px;
+  height: 320px;
+  border: 1px solid rgba(160, 160, 160, 0.603);
+}
+.head-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid rgba(160, 160, 160, 0.603);
+}
+.state {
+  background-color: rgba(221, 42, 42, 0.347);
+  padding: 5px;
+  border-radius: 10px;
+}
+.state li {
+  color: red;
+  padding: 1px;
+}
+
+.icon-competition {
+  width: 245px;
+  border-radius: 10px;
+  object-fit: contain;
+  mix-blend-mode: hard-light;
+}
+
+.icon-follow i {
+  font-size: 21px;
+  padding: 5px;
+  color: gainsboro;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  margin-bottom: 50px;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-team {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffffb5;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 #303030;
+}
+
+.bd-img-team {
+  background-color: rgb(144 144 144);
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.img-team img {
+  width: 50px;
+  object-fit: contain;
+}
+
+h6 {
+  font-size: 27px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  margin: 0 8px 0 8px;
+  font-weight: 600;
+}
+
+h5.home {
+  color: rgb(250, 32, 97);
+}
+
+strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+p {
+  color: #ffffffb5;
+  font-size: 16px;
+}
+
+.results-teams {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  font-size: 60px;
+}
+
+.time-match {
+  font-size: 16px;
+  color: rgba(255, 64, 121, 0.753);
+  font-weight: 600;
+  margin: -10px 0 5px 0;
+}
+
+span {
+  font-size: 30px;
+  align-self: center;
+  color: #ffffffb5;
+}
+
+.bets {
+  display: flex;
+}
+
+.bet {
+  background-color: #ffffffc7;
+  margin: 5px 5px 0 5px;
+  padding: 3px;
+  border: 1px inset rgb(177, 177, 177);
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.bet p {
+  color: #424242d7;
+  padding: 2px;
+  font-weight: 600;
+}
+
+.place-bet {
+  margin: auto;
+  width: 180px;
+  background-color: rgba(255, 64, 121, 0.87);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.place-bet p {
+  text-align: center;
+  color: #171717d7;
+  font-weight: 600;
+}
